@@ -1,10 +1,11 @@
-import { Selector } from "testcafe";
+//Scripts para automatizar login en saucedemo.com
+
+import loginPage from '../pages/loginPage';
+import inventoryPage from '../pages/inventoryPage'
 
 fixture `Login test suite`
     .page `https://www.saucedemo.com/`
-test ('User must be logged in successfully', async t => {
-    await t.typeText('#user-name','standard_user')
-    await t.typeText('input[data-test="password"]','secret_sauce')
-    await t.click('input[name="login-button"]')
-    await t.expect(Selector('.title').withText('PRODUCTS').exists).ok()
+test('El usuario debe iniciar sesión correctamente', async t => {
+    await loginPage.submitLoginForm('standard_user', 'secret_sauce')
+    await t.expect(inventoryPage.title.exists).ok()
 } )
