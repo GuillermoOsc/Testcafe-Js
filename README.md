@@ -1,3 +1,3 @@
-# Testcafe-Js
+## Testcafe-Js
 
-Automatización de pruebas para testing utilizando framework Testcafe Js.
+### Capacitación en automatización de pruebas para testing utilizando el framework Testcafe Js.
