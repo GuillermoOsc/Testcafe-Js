@@ -9,11 +9,19 @@ class loginPage {
         this.user = Selector('#user-name')
         this.pass = Selector('input[data-test="password"]')
         this.button = Selector('input[name="login-button"]')
+        this.title = Selector('h3')
     }
 
+
+// Se valida si los campos user y password son nulos para establecer happypath y escenarios negativos en el folder loginTest.js
+
     async submitLoginForm(user, pass) {
-        await t.typeText(this.user, user)
-        await t.typeText( this.pass, pass)
+        if(user != null){
+            await t.typeText(this.user, user)
+        }
+        if(pass != null){
+            await t.typeText(this.pass, pass)
+        }
         await t.click(this.button)
     }
 } 
