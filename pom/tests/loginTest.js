@@ -1,4 +1,9 @@
 //Scripts para automatizar login en saucedemo.com
+// npm run test (para ejecutar las pruebas)
+
+
+// El metodo "only" se utiliza para ejecutar un solo test. Ej. test.only('El usuario debe iniciar sesión correctamente', async t => {...
+// El metodo "skip" se utiliza para saltar un test en especifico. Ej. test.skip('El usuario debe iniciar sesión correctamente', async t => {...
 
 import loginPage from '../pages/loginPage';
 import inventoryPage from '../pages/inventoryPage'

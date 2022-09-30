@@ -2,6 +2,7 @@
 // Este patrón de diseño se denomina POM (Page Objet Model)
 
 
+
 import { Selector, t } from "testcafe";
 
 class loginPage {
