@@ -4,6 +4,6 @@
 
 ### Modulos utilizados
 
-- dotenv: Módulo para variables de entorno
-- testcafe: Framework de automatización
+- dotenv: Módulo para variables de entorno.
+- testcafe: Framework de automatización.
 - testcafe-reporter-html: Módulo para reportes de resultados.
