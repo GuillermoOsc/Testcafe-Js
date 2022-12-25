@@ -25,7 +25,8 @@ class loginPage {
         }
         await t.click(this.button)
     }
-} 
+
+};
 
 
 export default new loginPage
