@@ -7,10 +7,10 @@ import { Selector, t } from "testcafe";
 
 class loginPage {
     constructor(){
-        this.user = Selector('#user-name')
-        this.pass = Selector('input[data-test="password"]')
-        this.button = Selector('input[name="login-button"]')
-        this.title = Selector('h3')
+        this.user = Selector('input[name="username"]')
+        this.pass = Selector('input[name="password"]')
+        this.button = Selector('button[type="submit"]')
+        this.title = Selector('p.oxd-alert-content-text')
     }
 
 

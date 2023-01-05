@@ -28,8 +28,8 @@ export const CREDENTIALS = {
 
 
 export const MESSAGES = {
-    INVALID_USER_AND_PASS:'Epic sadface: Username and password do not match any user in this service',
-    NULL_USER:'Epic sadface: Username is required',
-    NULL_PASS:'Epic sadface: Password is required',
-    NULL_USER_AND_NULL_PASS: 'Epic sadface: Username is required'
+    INVALID_USER_AND_PASS:'Invalid credentials',
+    NULL_USER:'Required',
+    NULL_PASS:'Required',
+    NULL_USER_AND_NULL_PASS: 'Required'
 }

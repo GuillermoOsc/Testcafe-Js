@@ -1,9 +1,9 @@
 import { Selector } from 'testcafe'
 
-class inventoryPage {
+class dashBoard {
     constructor(){
-        this.title = Selector('.title').withText('PRODUCTS')
+        this.title = Selector('h6.oxd-text').withText('Dashboard')
     }
 }
 
-export default new inventoryPage
+export default new dashBoard
